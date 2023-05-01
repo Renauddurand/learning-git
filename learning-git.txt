@@ -15,6 +15,9 @@ commit
 git push
 Envoi toutes les modifications sur le serveur .
 
+git pull
+récupérer les modifications du serveur.
+
 git branch <nomDeBranche>
 ajoute une branche
 
