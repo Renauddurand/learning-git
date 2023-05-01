@@ -1,0 +1,2 @@
+git clone <Url du repo>
+copie le repository depuis l'adresse spécifiée .
