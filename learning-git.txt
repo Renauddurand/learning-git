@@ -9,5 +9,14 @@ git add .
 ( . = dossier local)
 prepare les fichiers pour les preparer au commit 
 
+git commit
+commit
+
 git push
 Envoi toutes les modifications sur le serveur .
+
+git branch <nomDeBranche>
+ajoute une branche
+
+git checkout <nomDeBranche>
+se placer dans la branche ciblée .
