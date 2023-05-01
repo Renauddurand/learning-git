@@ -1,2 +1,13 @@
 git clone <Url du repo>
 copie le repository depuis l'adresse spécifiée .
+
+git status 
+Montre l'etat du repo. ( sur quelle brnache je suis et fichier pretrs a etre commités)
+montre differences avec l'état courant .
+
+git add . 
+( . = dossier local)
+prepare les fichiers pour les preparer au commit 
+
+git push
+Envoi toutes les modifications sur le serveur .
