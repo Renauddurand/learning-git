@@ -9,19 +9,41 @@ montre differences avec l'état courant .
 
 git add . 
 ( . = dossier local)
-prepare les fichiers pour les preparer au commit 
+prepare added or modified files for a new commit .
 
 git commit
 commit
 
 git push
-Envoi toutes les modifications sur le serveur .
+push the modification to the git server
 
 git pull
-récupérer les modifications du serveur.
+get the modifications back from the git server
 
-git branch <nomDeBranche>
-ajoute une branche
+git branch <branchName>
+add a new branch
 
-git checkout <nomDeBranche>
-se placer dans la branche ciblée .
+git checkout <branchName>
+go in the named branch
+
+git merge <branchName>
+merge the content of the named branch in the active branch.
+
+git rebase<branchName>
+create merge between activ branch and named branch
+but the result goes on the same branch than named branch ( the other branch is deleted ? )
+
+HEAD
+relative reference for the commit you're actually working on .
+
+<branchName>^
+going to previous commit with "^"
+going back severals times in commits with <num>
+
+<branchName>~ (tilde ?)
+going back in the commit tree by the given amount of commits .
+
+git branch -f <branchName> HEAD~3 
+force the Named branch to be be placed 3commits before the actual commit ( Head )
+
+
