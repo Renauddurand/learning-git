@@ -46,4 +46,16 @@ going back in the commit tree by the given amount of commits .
 git branch -f <branchName> HEAD~3 
 force the Named branch to be be placed 3commits before the actual commit ( Head )
 
+git reset HEAD~1 
+supprime le commit désigné par HEAD et le place un commit auparavant .
+(uniquement pour une branche locale)
+
+git revert HEAD
+pareil que git reset mais pour une branche distante pushed ( pas local , utilisé par plusieurs users)
+
+git cherry pick <commitRef>
+copie le ou les commitsouhaité dans la branche actuelle , avant le HEAD
+
+
+
 
